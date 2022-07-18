@@ -1,15 +1,15 @@
-#Git Helpful Tips
+# Git Helpful Tips
 
-###Verificar que cambios tenemos en linia para subir
+### Verificar que cambios tenemos en linia para subir
 
 > git status
 
->** este comando revisa y pintea en cosola los archivos a subir a github** 
+> **este comando revisa y pintea en cosola los archivos a subir a github** 
 
 ## Subir o hostear cambios 
 
 > git add . 
-> ** este comnado sube todos los archivos para ser subidos a github (pendiente, el "." sube todos los archivos al github)
+> **este comnado sube todos los archivos para ser subidos a github (pendiente, el "." sube todos los archivos al github)**
 
 ### Agregar comentario a mis cambios de github
 
