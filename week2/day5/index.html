@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch Method & API Class</title>
+</head>
+<body>
+    <h1>Fetch Api Class</h1>
+
+    <button id="getText">Get Text</button>
+    <div id="output"></div>
+
+    <script>
+        document.getElementById("getText").addEventListener("click", getText);
+
+
+        //Nomenclatura antigua
+        function getText() {
+            fetch("sample.txt")
+            .then((response) => response.text())
+            .then((theInfoFromText)=>{
+                document.getElementById("output").innerHTML = theInfoFromText
+            }).catch((error) => console.log(error))
+        }
+
+    </script>
+</body>
+</html>
+
+<!-- Que vamos a cubrir en esta clase?
+
+Callbacks, promesas (.then .catch .promiseAll) -->

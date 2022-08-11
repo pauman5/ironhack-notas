@@ -18,8 +18,7 @@ const book3 = {
   title: "La sociedad de coste marginal cero",
   author: "Jeremy Rifkin",
   isbn: "9788449330513",
-  category: "Economia",
-};
+  category: "Economia",};
 const book4 = {
   title: "Siddhartha",
   author: " Hermann Hesse",
@@ -35,7 +34,7 @@ const book5 = {
 
 user.books = [book1, book2];
 user2.books = [book3];
-user3.books = [book4, book5];
+user3.books = [book4, book5
 
 const library = [user, user2, user3];
 
@@ -50,3 +49,5 @@ for (let i = 0; i < library.length; i++) {
   }
   console.log(`------------------------------------------`);
 }
+
+

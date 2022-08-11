@@ -6,7 +6,7 @@
 
 > **este comando revisa y pintea en cosola los archivos a subir a github** 
 
-## Subir o hostear cambios 
+### Subir o hostear cambios 
 
 > git add . 
 > **este comnado sube todos los archivos para ser subidos a github (pendiente, el "." sube todos los archivos al github)**

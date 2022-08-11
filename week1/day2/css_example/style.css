@@ -1,0 +1,19 @@
+  #inicial {}
+  
+  .titulo {
+    font-size: 3rem;
+    text-align: left;
+  }
+
+  .paragraph {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: red;
+    font-size: 20px;
+  }
+
+  .paragraph:hover {
+    background-color: blue;
+    font-size: 10px;
+  }
